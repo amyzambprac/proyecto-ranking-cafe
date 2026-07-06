@@ -31,7 +31,7 @@ Los datos de este proyecto fueron tomados del Coffee Quality Institute que eval�
 
 ### *Organización de los datasets*
 
-La base de datos incluye diversa información sobre la producción, el procesamiento y la evaluación sensorial del café. También contiene datos sobre la genética del café, los tipos de suelo y otros factores que pueden influir en la calidad del café en un solo arvhivo .csv de Excel. Dentro del dataset existe una columna nombrada como "Total Cup Points" y es la suma de las 10 atributos tomadas en cuenta para calificar el café indicadas anteriormente (aroma, flavor, aftertaste, acidity, body, entre otros).
+La base de datos incluye diversa información sobre la producción, el procesamiento y la evaluación sensorial del café. También contiene datos sobre la genética del café, los tipos de suelo y otros factores que pueden influir en la calidad del café en un solo arvhivo .csv de Excel. Dentro del dataset existe una columna nombrada como *"Total Cup Points"* y es la suma de las 10 atributos tomados en cuenta para calificar el café indicadas anteriormente (aroma, flavor, aftertaste, acidity, body, entre otros).
 
 ## 2. Staging
 
@@ -43,8 +43,18 @@ La base de datos incluye diversa información sobre la producción, el procesami
    
 3. Reemplazar y estandarizar las variaciones de los nombres de los países. 
 
+## 3. Intermediate
 
+1. De la base de datos se autofiltró la columna de *"Country of origin"* para que solo queden los países latinoamericanos evaluados.
 
+2. Se creó una nueva tabla con las columnas: *"Country of origin"*, *"Promedio de Total Cup Points"* y *"Cantidad de muestra"*.
 
+3. Se copiaron los países en otra hoja de cálculo y luego se eliminaron los duplicados para que no se repitan y queden en una columna los 10 países evaluados.
 
+4. Se usó la función *"PROMEDIO.SI"* para encontrar el promedio de la columna *Total Cup Points*, que es el total de los 10 atributos  (aroma, flavor, aftertaste, acidity, body, entre otros) encuestados para decidir la calificación final de la muestra de café.
 
+5. Se usó la función *CONTAR.SI* para encontrar el número de muestras de café evaluadas por país.
+
+6. Se creo una matriz de correlación de los 10 atributos con respecto a el Total Cup Points.
+
+7. 
