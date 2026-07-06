@@ -62,5 +62,10 @@ La base de datos incluye diversa información sobre la producción, el procesami
 - El país latinoamericano con mejor calificación es Perú con un promedio de 8233,25.
 - La cantidad de muestras varia dependiendo del pais y se encuentran en un rango de 2-21. Perú contó con 4 muestras evaluadas por los catadores de café.
 - El atributo con mayor peso dentro de la calificación final es de *Uniformity* con una correlación positiva de 0.05, seguido por *Aftertaste* con 0.02. Los demás atributos arrojaron correlaciones negativas lo cual indica una posible inconsistencias de formato en la base de datos lo cual afecta directamente a la correlacion estadística.
+- Los atributos *Clean Cup*, *Sweetness* y *Defects* no se pueden evaluar con este método porque son constantes (todas las muestras tienen el puntaje perfecto de 100 o 0 defectos) por eso no se pudo obtener un valor numérico de esos atributos.  
 
+## Insight:
+
+- Perú fue el país con mejor calificación sin embargo solo cuenta con 4 muestras evaluadas de café. Por lo tanto, se recomienda tener en cuenta a el segundo país con mejor calificación, Colombia, que contó con 19 muestras evaluadas para siempre contar con stock y sin limitaciones.
+  
 
