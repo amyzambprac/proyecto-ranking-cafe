@@ -55,17 +55,18 @@ La base de datos incluye diversa información sobre la producción, el procesami
 
 5. Se usó la función *CONTAR.SI* para encontrar el número de muestras de café evaluadas por país.
 
-6. Se creo una matriz de correlación de los 10 atributos con respecto a el Total Cup Points usando la función *COEF.DE.CORREL*.
+6. Se creo una nueva tabla para evaluar que atributo tiene mayor influencia en el resultado final *Total Cup Points* con la función *PROMEDIO.SI* del café con la mejor calificación.
 
 ## Conclusiones:
 
-- El país latinoamericano con mejor calificación es Perú con un promedio de 8233,25.
-- La cantidad de muestras varia dependiendo del pais y se encuentran en un rango de 2-21. Perú contó con 4 muestras evaluadas por los catadores de café.
-- El atributo con mayor peso dentro de la calificación final es de *Uniformity* con una correlación positiva de 0.05, seguido por *Aftertaste* con 0.02. Los demás atributos arrojaron correlaciones negativas lo cual indica una posible inconsistencias de formato en la base de datos lo cual afecta directamente a la correlacion estadística.
-- Los atributos *Clean Cup*, *Sweetness* y *Defects* no se pueden evaluar con este método porque son constantes (todas las muestras tienen el puntaje perfecto de 100 o 0 defectos) por eso no se pudo obtener un valor numérico de esos atributos.  
+- El país latinoamericano con mejor calificación es Guatemala con un promedio de 84,3.
+- La cantidad de muestras varia dependiendo del pais y se encuentran en un rango de 2-21. Guatemala contó con 21 muestras evaluadas por los catadores de café.
+- El atributo con mayor peso o influencia dentro de la calificación final es de *SABOR* con un promedio de 7,88 , seguido por *AROMA* con 7,7. Los demás atributos (*ACIDEZ* y *BALANCE*) tienen el mismo peso dentro de la calificación.
 
 ## Insight:
 
-- Perú fue el país con mejor calificación sin embargo solo cuenta con 4 muestras evaluadas de café. Por lo tanto, se recomienda tener en cuenta a el segundo país con mejor calificación, Colombia, que contó con 19 muestras evaluadas para siempre contar con stock y sin limitaciones.
+- Guatemala representa sin duda una gran alternativa para la compra de café debido a sus varias fincas que lo producen, asegurando stock ilimitado constante conservando la alta calidad del mismo.
+  
+- Se recomienda tener en cuenta a Colombia como una alternativa de compra ya que tiene también representa mantener una alta calidad de café de diversas fincas (19 en total), lo cual en temporadas de escasez o plagas ayudaría a mantener el stock sin afectar las ventas.
   
 
