@@ -62,11 +62,16 @@ La base de datos incluye diversa información sobre la producción, el procesami
 - El país latinoamericano con mejor calificación es Guatemala con un promedio de 84,3.
 - La cantidad de muestras varia dependiendo del pais y se encuentran en un rango de 2-21. Guatemala contó con 21 muestras evaluadas por los catadores de café.
 - El atributo con mayor peso o influencia dentro de la calificación final es de *SABOR* con un promedio de 7,88 , seguido por *AROMA* con 7,7. Los demás atributos (*ACIDEZ* y *BALANCE*) tienen el mismo peso dentro de la calificación.
+- El país con la calificación más baja fue El Salvador con una calificación de 81,53 con una cantidad de 7 muestras evaluadas.
+
+### Puedes encontrar el arhivo de excel de los resultados adjunto:
+<img width="955" height="468" alt="cafe_resultados" src="https://github.com/user-attachments/assets/16d22286-a1e9-4936-9b6c-ae0d0a825b09" />
 
 ## Insight:
 
 - Guatemala representa sin duda una gran alternativa para la compra de café debido a sus varias fincas que lo producen, asegurando stock ilimitado constante conservando la alta calidad del mismo.
-  
 - Se recomienda tener en cuenta a Colombia como una alternativa de compra ya que tiene también representa mantener una alta calidad de café de diversas fincas (19 en total), lo cual en temporadas de escasez o plagas ayudaría a mantener el stock sin afectar las ventas.
+- No se sugiere que exista una correelación entre la cantidad de muestras frente a la calificación, por lo tanto siguen siendo parámetros diferentes. Por ejemplo: Brazil tiene una de las calificaciones más bajas dentro del ranking y 10 muestras evaluadas mientras que Panamá tiene 2 muestras y está posicionado en el ranking #4 de mejor calificación.
+- Se sugiere tomar como principal fuente de café a Guatemala, seguido de Colombia y finalmente a Costa Rica que contiene las tres más altas calificaciones y con mayor o igual a 8 muestras evaluadas, lo cual asegura a la empresa un stock poco limitado, variado y de alta calidad.
   
 
