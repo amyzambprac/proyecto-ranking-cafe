@@ -47,7 +47,7 @@ La base de datos incluye diversa información sobre la producción, el procesami
 
 2. Se creó una nueva tabla con las columnas: *"Country of origin"*, *"Promedio de Total Cup Points"* y *"Cantidad de muestra"*.
 
-3. Se copiaron los países en otra hoja de cálculo y luego se eliminaron los duplicados para que no se repitan y queden en una columna los 8 países evaluados.
+3. Se copiaron los países en otra hoja de cálculo y luego se eliminaron los duplicados para que no se repitan y queden en una columna los 10 países evaluados.
 
 4. Se usó la función *"PROMEDIO.SI"* para encontrar el promedio de la columna *Total Cup Points*, que es el total de los 10 atributos  (aroma, flavor, aftertaste, acidity, body, entre otros) encuestados para decidir la calificación final de la muestra de café.
 
@@ -59,8 +59,8 @@ La base de datos incluye diversa información sobre la producción, el procesami
 
 - El país latinoamericano con mejor calificación es Guatemala con un promedio de 84,3.
 - La cantidad de muestras varia dependiendo del pais y se encuentran en un rango de 2-21. Guatemala contó con 21 muestras evaluadas por los catadores de café.
-- El atributo con mayor peso o influencia dentro de la calificación final es de *SABOR* con un promedio de 7,88 , seguido por *AROMA* con 7,7. Los demás atributos (*ACIDEZ* y *BALANCE*) tienen el mismo peso dentro de la calificación.
-- El país con la calificación más baja fue El Salvador con una calificación de 81,53 con una cantidad de 7 muestras evaluadas.
+- El atributo con mayor peso o influencia dentro de la calificación final es de *SABOR* con un promedio de 7,88 , seguido por *ACIDEZ* y *BALANCE* con 7,76 cada uno y *AROMA* con 7,7.
+- - El país con la calificación más baja fue El Salvador con una calificación de 81,53 con una cantidad de 7 muestras evaluadas.
 
 ### Puedes encontrar el arhivo de excel de los resultados adjunto:
 <img width="955" height="468" alt="cafe_resultados" src="https://github.com/user-attachments/assets/16d22286-a1e9-4936-9b6c-ae0d0a825b09" />
