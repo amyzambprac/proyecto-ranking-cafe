@@ -2,8 +2,6 @@
 # Ranking de países latinoamericanos por calidad de café
 ### Rol: Junior Data Analyst
 
-## 📊 Dashboard Interactivo
-
 ## Fase de consulta:
 
 Una importadora de café quiere saber qué países de América Latina producen consistentemente el café mejor calificado para priorizar sus compras. Los datos son reseñas reales de 1,340 cafés evaluados por catadores profesionales en el año 2018. Se plantearon las siguientes preguntas para encontar la solución adecuada a este problema de negocio:
@@ -49,7 +47,7 @@ La base de datos incluye diversa información sobre la producción, el procesami
 
 2. Se creó una nueva tabla con las columnas: *"Country of origin"*, *"Promedio de Total Cup Points"* y *"Cantidad de muestra"*.
 
-3. Se copiaron los países en otra hoja de cálculo y luego se eliminaron los duplicados para que no se repitan y queden en una columna los 10 países evaluados.
+3. Se copiaron los países en otra hoja de cálculo y luego se eliminaron los duplicados para que no se repitan y queden en una columna los 8 países evaluados.
 
 4. Se usó la función *"PROMEDIO.SI"* para encontrar el promedio de la columna *Total Cup Points*, que es el total de los 10 atributos  (aroma, flavor, aftertaste, acidity, body, entre otros) encuestados para decidir la calificación final de la muestra de café.
 
